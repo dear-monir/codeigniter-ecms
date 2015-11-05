@@ -1,0 +1,216 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+
+.admin_header {
+    background: none repeat scroll 0 0 #E9E9E9;
+    height: auto;
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#header_left {
+    float: left;
+    width: 48%;
+    height: auto;
+}
+
+#header_right {
+    float: right;
+    width: 48%;
+    height: auto;
+    text-align: right;
+}
+.clear{
+    clear: both;
+}
+#adminmenu {
+    width: 20%;
+    float: left;
+    margin-right: 1%;
+}
+
+#content {
+    width: 78%;
+    float: left;
+    margin-right: 1%;
+
+}
+
+#content h2 {
+    margin-top: 0;
+}
+
+#adminmenu div {
+    padding-right: 0px;
+}
+
+#adminmenu div li a {
+    text-decoration: none;
+    color: #4ea73a;
+    font-size: 13px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#adminmenu div li a:hover {
+    text-decoration: underline;
+    color: #A70000;
+    letter-spacing: 2px;
+}
+
+#records {
+    width: 70%;
+    float: left;
+}
+
+#product_content {
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#option_column {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #1C94C4;
+    color: #ffffff;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+table td {
+    text-align: center;
+}
+
+.button {
+    /* background-color: #EE5757;*/
+    padding: 5px;
+    border-radius: 5px;
+    cursor: hand;
+    min-width: 45px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #DDD;
+    background-color: #F9F9F9;
+}
+
+.button:hover {
+    background-color: #E6E6E6;
+}
+
+.button-add-new {
+    background: url("../images/shop/add-new-black.png") no-repeat left center;
+    padding-left: 15px;
+}
+
+.button-save {
+    background: url("../images/shop/save-black.png") no-repeat left center;
+    padding-left: 10px;
+}
+
+.button-edit {
+    background: url("../images/shop/edit-black.png") no-repeat left center;
+
+}
+
+.button-move {
+    background: url("../images/shop/move-black.png") no-repeat left center;
+    padding-left: 10px;
+}
+
+.button-cancel {
+    background: url("../images/shop/delete-black.png") no-repeat left center;
+    padding-left: 10px;
+}
+
+.delete_button {
+    background: url("../images/shop/rubbish.png") no-repeat left center;
+    padding-left: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    display: block;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+}
+
+.fix-float {
+    content: " ";
+    display: block;
+    visibility: hidden;
+}
+
+/*currency view*/
+#side_bar {
+    background: #F3F3F3;
+    padding: 20px;
+}
+
+#side_bar h3 span {
+    color: #5a0099;
+    /*color: #407799;*/
+}
+
+#content #add_new {
+    float: right;
+    margin-top: 10px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #000000;
+}
+#container{
+    background: url("../css/img/bg.jpg") #10a5d3;
+    height: auto;
+    /*min-height: 400px;*/
+    margin: 15px auto;
+    width: 600px;
+    padding: 10px;
+}
+#admin_login{
+    text-align: center;
+}
+#admin_login li{
+    padding: 5px;
+}
+#admin_login a:hover{
+    text-decoration:underline;
+}
+.submit{
+    background: none repeat scroll 0 0 #F5C5C5;
+    border: 2px solid #F7F7F7;
+    padding: 5px;
+}
+#admin_login input[type="text"],input[type="password"],input[type="email"]{
+    border: 1px solid #f9f9f9;
+    height: 25px;
+}

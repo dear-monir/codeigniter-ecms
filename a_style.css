@@ -1,0 +1,96 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#adminmenu{
+	width:15%;
+	float:left;
+}
+
+#content{
+	width:85%;
+	float:left;
+	height:10px;
+    background-color:#BDECBD;
+}
+#adminmenu div{
+    padding-right: 0px;
+}
+#adminmenu div li a{
+	text-decoration:none;
+    color: #4ea73a;
+    font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#adminmenu div li a:hover{
+    text-decoration:underline;
+    color:#A70000 ;
+    letter-spacing: 1px;
+}
+
+#records {
+    width: 70%;
+    float: left;
+}
+
+#product_content{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+#option_column{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+table{
+    width: 100%;
+}
+table th{
+    background-color:#143270 ;
+    color: #ffffff;
+}
+
+table tr{
+    background-color: #fcefa1;
+}
+table td{
+    text-align: center;
+}
+
+
+.button{
+    background-color: #EE5757;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: hand;
+}
+a{
+    text-decoration: none;
+}
+
+label{
+    display: block;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+}
+/*currency view*/
+#side_bar{
+    background:#c2ccd1;
+    width: 30%;
+    float: right;
+}
+
+#side_bar h3 span{
+    color: #5a0099;
+}
+
+#content #add_new{
+    float: right;
+    margin-top: 10px;
+}
